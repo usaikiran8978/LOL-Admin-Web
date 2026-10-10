@@ -19,6 +19,7 @@
     "zod": "^4.6.5"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.16.2",
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
@@ -31,7 +32,7 @@
     "typescript": "~6.0.3",
     "vitest": "^5.0.3"
   },
-  "description": "LOL (Lot of Love) \u2014 admin web console (Next.js)",
+  "description": "LOL (Lot of Love) — admin web console (Next.js)",
   "engines": {
     "node": ">=22"
   },
