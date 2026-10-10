@@ -1,0 +1,17 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*.local
+*.log
+.DS_Store
+.expo/
+.next/
+ios/Pods/
+android/.gradle/
+.local-storage/
+
+# --- Next.js app
+/.next/
+/next-env.d.ts
+*.tsbuildinfo
