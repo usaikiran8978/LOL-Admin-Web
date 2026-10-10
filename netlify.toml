@@ -1,0 +1,10 @@
+# Netlify: the Next.js runtime (OpenNext adapter) is auto-detected and serves pages, server routes and the
+# `/api/*` → `${API_URL}/v1/*` rewrite. Publish `.next` — not `.next/standalone` or `out` (this is not a static export).
+# Set API_URL in Site configuration → Environment variables; it is read at build time.
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NEXT_TELEMETRY_DISABLED = "1"
